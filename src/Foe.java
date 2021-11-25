@@ -12,7 +12,7 @@ public class Foe extends AnimatedThing {
     double y_foe;
 
     public Foe(int x_foe, int y_foe) {
-        super(x_foe, y_foe, 0, 1, 2, Duration.millis(10), 10, 0, 40, "foe2");
+        super(x_foe, y_foe, 0, 1, 2, Duration.millis(10), 10, 0, 40, "foe");
         this.x_foe = x_foe;
         this.y_foe = y_foe;
     }
