@@ -5,11 +5,8 @@ public class Camera {
     private double vy;
     private double moment = 0;
 
-/*    public Camera(){
-        this.x= 0;
-        this.y= 0;
-    }
-*/
+// La caméra n'est pas utilisée
+
     public Camera(double x, double y){
         this.x = x;
         this.y = y;

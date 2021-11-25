@@ -18,15 +18,10 @@ public class GameScene extends Scene {
     private static Group group;
 
     private static int numberOfLives = 3;
-    //private static staticThing heart1;
-    //private static staticThing heart2;
-    //private static staticThing heart3;
-    //private static staticThing[] hearts;
     public static ArrayList<staticThing> hearts = new ArrayList();
     private Camera cam;
     private static Hero hero;
     private static ArrayList<Foe> foes = new ArrayList();
-    //private static Foe foe;
     public static int saut;
 
 
