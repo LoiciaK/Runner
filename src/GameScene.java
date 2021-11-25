@@ -36,7 +36,7 @@ public class GameScene extends Scene {
         this.cam = new Camera(width, height);
         this.right = new staticThing(800, 0, cam.getX(), cam.getY(), "desert");
         this.left = new staticThing(0, 0, cam.getX(), cam.getY(), "desert");
-        this.gameOver = new staticThing(800, 0, cam.getX(), cam.getY(), "GameOver");
+        this.gameOver = new staticThing(800, 0, cam.getX(), cam.getY(), "gameover");
 
 
         this.hero = new Hero(100, 245,0);
