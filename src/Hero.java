@@ -59,8 +59,7 @@ public class Hero extends AnimatedThing {
 
             sprite.setY(245);
             sprite.setViewport(new Rectangle2D(i * 85, 0, 85, 100));
-            counter = 0;
-            GameScene.saut = 0;
+            //counter = 0;
 
         }
 
