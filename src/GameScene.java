@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import javafx.scene.image.*;
 import javafx.geometry.Rectangle2D;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class GameScene extends Scene {
@@ -22,7 +23,7 @@ public class GameScene extends Scene {
     private Camera cam;
     private static Hero hero;
     private static ArrayList<Foe> foes = new ArrayList();
-    public static int saut;
+
 
 
     public GameScene(Group group, double width, double height, boolean b) {
